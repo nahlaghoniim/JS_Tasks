@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DataHub</title>
+    <link rel="stylesheet" href="style.css">
+    <style id="style"></style>
+</head>
+<body>
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+    </div>
+    <div class="form-group">
+        <label for="job">Job:</label>
+        <input type="text" id="job" name="job" required>
+    </div>
+    <div id="btns">
+        <button class="add-btn" onclick="add()">Add</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Job</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody id="tbl">
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
