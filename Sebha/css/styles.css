@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    background-image: url('download (44).jpeg'); /* Update this path */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the background image */
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); /* Adds a white background with some transparency */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.rosary {
+    display: inline-block;
+    background: #d7ccc8;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    position: relative;
+}
+
+.screen {
+    background: #212121;
+    border-radius: 8px;
+    color:#c29c8b;
+    padding: 20px;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.buttons button {
+    background-color: #875f50;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.buttons button:hover {
+    background-color: #875f50;
+}
+
+.phrase-selector {
+    margin-top: 20px;
+}
+
+.phrase-display {
+    margin-top: 20px;
+}
+
+#label {
+    font-size: 18px;
+    color: #875f50;
+}
